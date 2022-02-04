@@ -1,0 +1,64 @@
+body {
+    font-family: 'Gotham-Book', verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #3d3d3d;
+    background-color: #ececec;
+}
+img.lineaDirecta {
+    display: block;
+    text-align: center;
+}
+
+p.landParf {
+    text-align: right;
+}
+a.lang {
+    text-decoration: none;
+}
+a.lang:hover {
+    text-decoration: underline;
+}
+
+div.main{
+    display: grid;
+        grid-template-columns: repeat(1, 2fr);
+            gap: 1em;
+                margin-top: 0%;
+                margin-left: 10%;
+                    background-color: white;
+    width: 70%;
+        text-align: center;
+}
+div.header {
+    grid-row: 1;
+        margin-left: 40%;
+}
+div.title {
+    grid-row: 2;
+}
+div.usr {
+    grid-row: 3;
+}
+p.doc{
+    margin-bottom: 0%;
+    text-align: left;
+    padding-left: 42%;
+}
+div.passwd {
+    grid-row: 4;
+}
+div.check {
+    grid-row: 5;
+}
+div.forget {
+    grid-row: 6;
+}
+div.bottonUno {
+    grid-row: 7;
+}
+div.bottonDos {
+    grid-row: 8;
+}
+div.register {
+    grid-row: 9;
+}
