@@ -4,10 +4,7 @@ body {
     color: #3d3d3d;
     background-color: #ececec;
 }
-img.lineaDirecta {
-    display: block;
-    text-align: center;
-}
+
 
 p.landParf {
     text-align: right;
@@ -18,7 +15,45 @@ a.lang {
 a.lang:hover {
     text-decoration: underline;
 }
+p.doc{
+    margin-bottom: 0%;
+}
+a.passwd {
+    color: rgb(241, 53, 53);
+    text-decoration: none;
+    font-size: 11px;
+}
+a.passwd:hover {
+    color: red;
+    text-decoration: underline;
+}
+input.acceder {
+    background-color: rgb(184, 76, 76);
+        border-radius: 30px;
+            border: 1px solid transparent;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
 
+}
+input.acceder:hover {
+    background-color: red;
+}
+input.grua {
+    border-radius: 30px;
+        background-color: white;
+            border: 0.5px solid red;
+}
+input.grua:hover {
+    background-color: rgb(145, 16, 44);
+        color: white;
+}
+a.regis {
+    font-family: 'Gotham-Book', verdana, sans-serif;
+    font-size: 0.75rem;
+    color: #3d3d3d;
+}
 div.main{
     display: grid;
         grid-template-columns: repeat(1, 2fr);
@@ -31,7 +66,6 @@ div.main{
 }
 div.header {
     grid-row: 1;
-        margin-left: 40%;
 }
 div.title {
     grid-row: 2;
@@ -39,26 +73,39 @@ div.title {
 div.usr {
     grid-row: 3;
 }
-p.doc{
-    margin-bottom: 0%;
-    text-align: left;
-    padding-left: 42%;
-}
 div.passwd {
     grid-row: 4;
 }
 div.check {
     grid-row: 5;
+        font-size: 11px;
+        margin-top: 2%;
+            margin-bottom: 2%;
 }
 div.forget {
     grid-row: 6;
+    margin-top: 2%;
+        margin-bottom: 2%;
 }
 div.bottonUno {
     grid-row: 7;
+    margin-top: 2%;
+        margin-bottom: 2%;
 }
 div.bottonDos {
     grid-row: 8;
+        margin-bottom: 2%;
 }
 div.register {
     grid-row: 9;
+}
+footer {
+    display: grid;
+        grid-template-rows: repeat(1, 2fr);
+            gap: 1em;
+                margin-top: 0%;
+                margin-left: 10%;
+                    background-color: white;
+    width: 70%;
+        text-align: center;
 }
